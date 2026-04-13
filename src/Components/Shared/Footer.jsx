@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Friends = () => {
+const Footer = () => {
     return (
         <div>
-            All friends
+            Footer
+            
         </div>
     );
 };
 
-export default Friends;
+export default Footer;

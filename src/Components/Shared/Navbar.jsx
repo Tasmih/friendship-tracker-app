@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Friends = () => {
+const Navbar = () => {
     return (
         <div>
-            All friends
+            Navbar
         </div>
     );
 };
 
-export default Friends;
+export default Navbar;
