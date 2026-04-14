@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "email": "jane@example.com",
+    "days_since_contact": 7,
+    "status": "on track",
+    "tags": ["work", "close friend"],
+    "bio": "We used to work in the same office. Great conversations over coffee.",
+    "goal": 21,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Mike Johnson",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "email": "mike@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["gym buddy", "acquaintance"],
+    "bio": "Met at the gym. Occasionally meet for workouts.",
+    "goal": 10,
+    "next_due_date": "2025-08-10"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Lee",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on track",
+    "tags": ["neighbor", "good friend"],
+    "bio": "We live next door. Often catch up on weekends.",
+    "goal": 20,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "picture": "https://images.unsplash.com/photo-1500644665563-0c2c6a1b4a74",
+    "email": "david@example.com",
+    "days_since_contact": 40,
+    "status": "need attention",
+    "tags": ["college", "old friend"],
+    "bio": "Friend from college. We used to hang out a lot.",
+    "goal": 10,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 6,
+    "name": "Emily Davis",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "email": "emily@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["travel buddy", "close friend"],
+    "bio": "Traveled together to Europe last summer.",
+    "goal": 30,
+    "next_due_date": "2025-08-15"
+  },
+  {
+    "id": 7,
+    "name": "Chris Williams",
+    "picture": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+    "email": "chris@example.com",
+    "days_since_contact": 10,
+    "status": "on track",
+    "tags": ["work", "mentor"],
+    "bio": "Mentor at my last job. Helped me with career advice.",
+    "goal": 12,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Harris",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "email": "olivia@example.com",
+    "days_since_contact": 2,
+    "status": "on track",
+    "tags": ["book club", "close friend"],
+    "bio": "Book club friends. Love discussing novels.",
+    "goal": 25,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Martin",
+    "picture": "https://images.unsplash.com/photo-1502767089025-6572583495b9",
+    "email": "daniel@example.com",
+    "days_since_contact": 60,
+    "status": "need attention",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin. Haven’t caught up in a while.",
+    "goal": 18,
+    "next_due_date": "2025-08-30"
+  },
+  {
+  "id": 10,
+  "name": "Lucas Garcia",
+  "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+  "email": "lucas@example.com",
+  "days_since_contact": 3,
+  "status": "on track",
+  "tags": ["travel buddy", "friend"],
+  "bio": "Met while backpacking in Asia.",
+  "goal": 8,
+  "next_due_date": "2025-07-18"
+}
+]

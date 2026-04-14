@@ -21,9 +21,10 @@ const router =createBrowserRouter(
           //path:"/",
             index:true,
           element:<Homepage/>,
+          loader :()=> fetch ("/friends.json")
         },
         {
-          path:"/friends",
+          path:"/friends/:id",
           element:<Friends/>,
         },
         {

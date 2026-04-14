@@ -20,10 +20,10 @@ const Navbar = () => {
     ]
 
     return (
-       <nav className='flex justify-between gap-4 items-center bg-white py-[8px] container mx-auto'>
+       <nav className=' shadow-md bg-white flex justify-between gap-4 items-center py-[8px] container mx-auto '>
 
         <img src={logoImg} alt='' className='w-[80px]'/>
-        <ul className='flex justify-end gap-4 items-end'>
+        <ul className="lg:flex hidden justify-between items-center gap-4">
         {
 
             navItems.map((item,index)=> <MyNavLink key={index} to={item.path}>{item.text}</MyNavLink>)
