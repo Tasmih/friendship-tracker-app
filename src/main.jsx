@@ -9,37 +9,10 @@ import Timeline from './Pages/Timeline/Timeline'
 import Stats from './Pages/Stats/Stats'
 import NotFoundPage from './Pages/NotFoundPage/NotFoundPage'
 import Homepage from './Pages/Homepage/Homepage'
+import { router } from './Router/Route'
 
 
-const router =createBrowserRouter(
-  [
-    {
-      path:"/",
-      element: <RootLayout/> ,
-      children:[
-        {
-          //path:"/",
-            index:true,
-          element:<Homepage/>,
-          loader :()=> fetch ("/friends.json")
-        },
-        {
-          path:"/friends/:id",
-          element:<Friends/>,
-        },
-        {
-          path:"/timeline",
-          element:<Timeline/>,
-        },
-        {
-          path:"/stats",
-          element:<Stats/>,
-        }
-      ],
-      errorElement:<NotFoundPage/>,
-    },
-    
-  ]);
+
 
 
 
