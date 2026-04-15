@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "picture": "https://i.ibb.co.com/p6DpjBXq/diego-hernandez-MSepzb-KFz10-unsplash.jpg",
     "email": "john@example.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Jane Smith",
-    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "picture": "https://i.ibb.co.com/0Rt8p18L/wellington-ferreira-72-TE8c-WKXRY-unsplash.jpg",
     "email": "jane@example.com",
     "days_since_contact": 7,
     "status": "on track",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Mike Johnson",
-    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "picture": "https://i.ibb.co.com/W4CRz37z/esref-yasa-MOQ-CUu-ED8w-unsplash.jpg",
     "email": "mike@example.com",
     "days_since_contact": 30,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Sarah Lee",
-    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    "picture": "https://i.ibb.co.com/B5PKZmJ1/no-name-Sdch-QSCd7wc-unsplash.jpg",
     "email": "sarah@example.com",
     "days_since_contact": 5,
     "status": "on track",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Brown",
-    "picture": "https://images.unsplash.com/photo-1500644665563-0c2c6a1b4a74",
+    "picture": "https://i.ibb.co.com/hFHNh1GD/podmatch-GEn-Cn-Yh-A1-J4-unsplash.jpg",
     "email": "david@example.com",
     "days_since_contact": 40,
     "status": "need attention",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Emily Davis",
-    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "picture": "https://i.ibb.co.com/zH6G2HCq/raul-angel-x8-Ac6jee-3s-unsplash.jpg",
     "email": "emily@example.com",
     "days_since_contact": 15,
     "status": "overdue",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Chris Williams",
-    "picture": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+    "picture": "https://i.ibb.co.com/6J8Y5Z9J/aejaz-memon-g-Xfnv6b-Xn-As-unsplash.jpg",
     "email": "chris@example.com",
     "days_since_contact": 10,
     "status": "on track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Olivia Harris",
-    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "picture": "https://i.ibb.co.com/cc2jQnr3/ali-mammadli-ng-Au-VVO1l-Q4-unsplash.jpg",
     "email": "olivia@example.com",
     "days_since_contact": 2,
     "status": "on track",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Daniel Martin",
-    "picture": "https://images.unsplash.com/photo-1502767089025-6572583495b9",
+    "picture": "https://i.ibb.co.com/qMWgSgX4/tom-prejeant-x5-I4y-CFi-Zds-unsplash.jpg",
     "email": "daniel@example.com",
     "days_since_contact": 60,
     "status": "need attention",
@@ -110,7 +110,7 @@
   {
   "id": 10,
   "name": "Lucas Garcia",
-  "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+  "picture": "https://i.ibb.co.com/jvfNcRbR/ben-den-engelsen-z-Lpwx-THN7-DM-unsplash.jpg",
   "email": "lucas@example.com",
   "days_since_contact": 3,
   "status": "on track",

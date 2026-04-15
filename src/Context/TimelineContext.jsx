@@ -1,0 +1,26 @@
+import { createContext, useState } from "react";
+
+export const TimelineContext = createContext();
+
+export const TimelineProvider = ({ children }) => {
+  const [timeline, setTimeline] = useState([]);
+  
+
+  //  add new time line 
+  const addTimeline = (type, name) => {
+    const newEntry = {
+      id: Date.now(),
+      type,
+      title: `${type} with ${name}`,
+      date: new Date().toLocaleDateString(),
+    };
+
+    setTimeline((prev) => [newEntry, ...prev]);
+  };
+
+  return (
+    <TimelineContext.Provider value={{ timeline, addTimeline }}>
+      {children}
+    </TimelineContext.Provider>
+  );
+};

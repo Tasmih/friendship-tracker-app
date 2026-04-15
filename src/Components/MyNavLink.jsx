@@ -1,13 +1,23 @@
-import React from 'react';
-import { NavLink } from 'react-router';
+import React from "react";
+import { NavLink } from "react-router";
 
-const MyNavLink = ({to, className, children}) => {
-    return (
-        <NavLink to={to} className={({isActive})=>
-
-              ` font-semibold pb-2  rounded-lg  ${className} ${isActive ? "bg-emerald-900 text-white" :" bg-white text-gray-500"}` } > {children}</NavLink>
-            
-    );
+const MyNavLink = ({ to, children, onClick }) => {
+  return (
+    <NavLink
+      to={to}
+      onClick={onClick}
+      className={({ isActive }) =>
+        `flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-all duration-300
+        ${
+          isActive
+            ? "bg-emerald-900 text-white"
+            : "text-gray-500 hover:bg-gray-100"
+        }`
+      }
+    >
+      {children}
+    </NavLink>
+  );
 };
 
 export default MyNavLink;
