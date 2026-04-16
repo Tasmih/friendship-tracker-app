@@ -63,7 +63,7 @@ const FriendDetails = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-          {/* LEFT SIDE */}
+          {/* left side */}
           <div className="lg:col-span-5">
             <div className="bg-white rounded-3xl shadow-sm p-8 sticky top-8">
               <div className="flex flex-col items-center text-center">
@@ -96,7 +96,7 @@ const FriendDetails = () => {
                   </span>
                 </div>
 
-                {/*  ACTION BUTTONS */}
+                
                 <div className="w-full space-y-3">
                   <button className="w-full flex items-center justify-center gap-3 py-4 bg-white border border-gray-200 hover:bg-gray-50 rounded-2xl text-gray-700 font-medium">
                     <HiBellSnooze /> Snooze 2 Weeks
@@ -114,10 +114,10 @@ const FriendDetails = () => {
             </div>
           </div>
 
-          {/*  RIGHT SIDE */}
+          {/*  rigth side */}
           <div className="lg:col-span-7 space-y-6">
 
-            {/* STATS */}
+            
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="bg-white rounded-3xl p-6 text-center shadow-sm">
                 <div className="text-4xl font-semibold">
@@ -147,7 +147,6 @@ const FriendDetails = () => {
               </div>
             </div>
 
-            {/* RELATIONSHIP */}
             <div className="bg-white rounded-3xl p-8 shadow-sm">
               <div className="flex justify-between items-center mb-6">
                 <h3 className="text-xl font-semibold">
@@ -162,7 +161,7 @@ const FriendDetails = () => {
               </p>
             </div>
 
-            {/*  QUICK CHECK-IN */}
+        
             <div className="bg-white rounded-3xl p-8 shadow-sm">
               <h3 className="text-xl font-semibold mb-6">
                 Quick Check-In
@@ -170,7 +169,7 @@ const FriendDetails = () => {
 
               <div className="grid grid-cols-3 gap-4">
 
-                {/* CALL */}
+                {/* btn call */}
                 <button
   onClick={() => handleCheckIn('Call')}
   className="flex flex-col items-center py-10 border rounded-2xl hover:bg-indigo-50"

@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Social Links */}
+       
         <div>
             <h3 className='text-center text-white font-semibold py-3'>Social Links</h3>
         </div>
@@ -30,9 +30,9 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Footer Links */}
+    
         <div className='flex justify-between items-center'>
-          {/* Copyright Text */}
+        
         <div className=" text-sm mb-6">
           <p>&copy; 2026 KeenKeeper. All rights reserved.</p>
         </div>

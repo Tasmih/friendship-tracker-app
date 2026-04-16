@@ -32,10 +32,8 @@ const Navbar = () => {
     <nav className="bg-white border-b shadow-sm">
       <div className="container mx-auto flex justify-between items-center py-3 px-4">
 
-        {/* Logo */}
         <img src={logoImg} alt="logo" className="w-[140px]" />
 
-        {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-3">
           {navItems.map((item, index) => (
             <li key={index}>
@@ -49,7 +47,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* for mobile btn */}
         <button
           className="md:hidden text-2xl"
           onClick={() => setOpen(!open)}
@@ -58,7 +55,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* for mobile menu */}
+      {/* for mobile*/}
       {open && (
         <div className="md:hidden px-4 pb-4">
           <ul className="flex flex-col gap-2">

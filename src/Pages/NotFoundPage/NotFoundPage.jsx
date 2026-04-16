@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { FaExclamationTriangle } from 'react-icons/fa';
+import { FcHome } from 'react-icons/fc';
 
 const NotFoundPage = () => {
     return (
@@ -24,7 +25,7 @@ const NotFoundPage = () => {
                 to="/"
                 className="mt-6 px-7 py-3 rounded-full bg-white text-[#224D3F] font-bold shadow-lg hover:bg-gray-100 transition-all duration-300 flex items-center gap-2"
             >
-                🏠 Go Back Home
+                <FcHome /> Go Back Home
             </Link>
         </div>
     );
