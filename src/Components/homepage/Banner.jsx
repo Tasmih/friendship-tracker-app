@@ -28,19 +28,19 @@ relationships that matter most.
 
           {/* Card 2 */}
           <div className="bg-white border border-gray-100 rounded-xl p-6 text-center hover:border-gray-200 hover:shadow-md transition-all">
-            <div className="text-3xl font-semibold text-slate-500 mb-2">3</div>
+            <div className="text-3xl font-semibold text-slate-500 mb-2">5</div>
             <div className="text-gray-500 font-medium text-lg">On Track</div>
           </div>
 
           {/* Card 3 */}
           <div className="bg-white border border-gray-100 rounded-xl p-6 text-center hover:border-gray-200 hover:shadow-md transition-all">
-            <div className="text-3xl font-semibold text-slate-500 mb-2">6</div>
+            <div className="text-3xl font-semibold text-slate-500 mb-2">2</div>
             <div className="text-gray-500 font-medium text-lg">Need Attention</div>
           </div>
 
           {/* Card 4 */}
           <div className="bg-white border border-gray-100 rounded-xl p-6 text-center hover:border-gray-200 hover:shadow-md transition-all">
-            <div className="text-3xl font-semibold text-slate-500 mb-2">12</div>
+            <div className="text-3xl font-semibold text-slate-500 mb-2">3</div>
             <div className="text-gray-500 font-medium text-lg">Interactions This Month</div>
           </div>
 
