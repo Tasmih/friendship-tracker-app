@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../Layout/RootLayout";
 
 import Homepage from "../Pages/Homepage/Homepage";
@@ -28,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "/stats",
         element: <Stats />,
+      },
+      {
+        path: "*",
+        element: <NotFoundPage />,
       },
     ],
     errorElement: <NotFoundPage />,
