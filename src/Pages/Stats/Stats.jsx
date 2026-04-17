@@ -24,29 +24,28 @@ const Stats = () => {
   ].filter((item) => item.value > 0);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 md:p-8">
+    <div className="min-h-screen bg-gray-100 p-4 sm:p-6 md:p-8">
       <div className="max-w-3xl mx-auto">
-        
-        <h1 className="text-3xl font-bold mb-8 text-[#1F2A37]">
+
+        <h1 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-[#1F2A37] text-center sm:text-left">
           Friendship Analytics
         </h1>
 
-        <div className="bg-white rounded-3xl shadow px-8 pt-8 pb-6 md:px-12 md:pt-10 md:pb-8">
-          
-          <p className="text-gray-600 text-lg mb-6">
+        <div className="bg-white rounded-3xl shadow px-4 sm:px-6 md:px-8 pt-6 sm:pt-8 pb-6 md:px-12 md:pt-10 md:pb-8">
+
+          <p className="text-gray-600 text-base sm:text-lg mb-4 sm:mb-6 text-center sm:text-left">
             By Interaction Type
           </p>
 
-          {/* chart */}
-          <div className="flex justify-center mt-4 h-[250px] sm:h-[320px]">
+          <div className="flex justify-center mt-4 h-[220px] sm:h-[280px] md:h-[320px]">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
                   data={chartData}
                   cx="50%"
                   cy="50%"
-                  innerRadius={70}
-                  outerRadius={100}
+                  innerRadius={60}
+                  outerRadius={90}
                   dataKey="value"
                   paddingAngle={6}
                 >
@@ -59,21 +58,20 @@ const Stats = () => {
             </ResponsiveContainer>
           </div>
 
-          {/* legend */}
-          <div className="flex justify-center gap-8 mt-3 flex-wrap">
+          <div className="flex justify-center gap-4 sm:gap-6 md:gap-8 mt-4 flex-wrap">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-[#8b5cf6]"></div>
-              <span className="text-gray-700">Text</span>
+              <span className="text-sm sm:text-base text-gray-700">Text</span>
             </div>
 
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-[#244D3F]"></div>
-              <span className="text-gray-700">Call</span>
+              <span className="text-sm sm:text-base text-gray-700">Call</span>
             </div>
 
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-[#10b981]"></div>
-              <span className="text-gray-700">Video</span>
+              <span className="text-sm sm:text-base text-gray-700">Video</span>
             </div>
           </div>
 

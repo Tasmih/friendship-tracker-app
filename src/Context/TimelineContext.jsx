@@ -6,7 +6,7 @@ export const TimelineProvider = ({ children }) => {
   const [timeline, setTimeline] = useState([]);
   
 
-  //  add new time line 
+
   const addTimeline = (type, name) => {
     const newEntry = {
       id: Date.now(),

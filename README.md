@@ -1,16 +1,28 @@
-# React + Vite
+# Friendship Tracker-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React web application to keep track of your friends and your interactions with them.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project helps you manage your friendships by showing your friends list, their details, last contact time, and a complete timeline of your interactions (Call, Text, Video). It also includes a nice analytics page with a pie chart to see how you communicate with your friends.
 
-## React Compiler
+## Feature
+***Homepage:
+- View all your friends with profile pictures, names, status, and tags.
+- Click on any friend to see their detailed profile.
+ ***Timeline Page** – See history of all interactions (Call, Text, Video)
+- Search in Timeline by typing call, text, or video.
+***Stats Page** – Beautiful pie chart showing interaction breakdown.
+- Fully responsive design which will work well on mobile and desktop.
+- Loading animation and toast notifications.
+- Clean and modern UI using Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- React.js (Vite)
+- React Router DOM
+- Context API
+- Tailwind CSS
+- React Icons
+- Recharts (for Pie Chart)
+- React Toastify
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className="bg-white border-b shadow-sm">
       <div className="container mx-auto flex justify-between items-center py-3 px-4">
 
-        <img src={logoImg} alt="logo" className="w-[140px]" />
+        <img src={logoImg} alt="logo" className="w-[140px] hover:rotate-12 transition-transform duration-300" />
 
         <ul className="hidden md:flex items-center gap-3">
           {navItems.map((item, index) => (
@@ -55,7 +55,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* for mobile*/}
+      
       {open && (
         <div className="md:hidden px-4 pb-4">
           <ul className="flex flex-col gap-2">

@@ -11,7 +11,7 @@ const MyNavLink = ({ to, children, onClick }) => {
         ${
           isActive
             ? "bg-emerald-900 text-white"
-            : "text-gray-500 hover:bg-gray-100"
+            : "text-gray-500 hover:bg-green-300 hover:text-gray-900"
         }`
       }
     >

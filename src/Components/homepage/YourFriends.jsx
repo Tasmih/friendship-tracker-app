@@ -1,11 +1,10 @@
-
 import { useNavigate } from "react-router";
 import { RiseLoader } from "react-spinners";
 import UseFriends from "../../Hooks/UseFriends";
 
 const YourFriends = () => {
- const { friends, loading } = UseFriends();
-  const navigate = useNavigate();;
+  const { friends, loading } = UseFriends();
+  const navigate = useNavigate();
 
   return (
     <>
@@ -14,8 +13,8 @@ const YourFriends = () => {
           <RiseLoader color="#244d3f" />
         </div>
       ) : (
-        <div className="p-6 md:p-8">
-          <h2 className="text-2xl font-bold mb-6">
+        <div className="p-4 sm:p-6 md:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center sm:text-left">
             Your Friends: {friends.length}
           </h2>
 
@@ -24,37 +23,35 @@ const YourFriends = () => {
               <div
                 key={friend.id}
                 onClick={() => navigate(`/friend/${friend.id}`)}
-                className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center cursor-pointer hover:shadow-xl hover:scale-[1.02] transition duration-300"
+                className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center cursor-pointer hover:shadow-xl hover:scale-[1.02] transition duration-300 h-full"
               >
                 <img
                   src={friend.picture}
                   alt={friend.name}
-                  className="rounded-full w-24 h-24 mb-4 object-cover"
+                  className="rounded-full w-20 h-20 sm:w-24 sm:h-24 mb-4 object-cover"
                 />
 
-                <h3 className="font-semibold text-lg text-center">
+                <h3 className="font-semibold text-base sm:text-lg text-center break-words w-full">
                   {friend.name}
                 </h3>
 
-                <p className="text-sm text-[#64748b]">
+                <p className="text-xs sm:text-sm text-[#64748b]">
                   {friend.days_since_contact}d ago
                 </p>
 
-                {/* Tags */}
                 <div className="flex flex-wrap justify-center gap-2 mt-3">
                   {friend.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="badge badge-soft badge-success"
+                      className="badge badge-soft badge-success text-xs sm:text-sm"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
 
-                {/* Status */}
                 <div
-                  className={`mt-3 px-4 py-1 text-white rounded-full text-sm ${
+                  className={`mt-3 px-3 sm:px-4 py-1 text-white rounded-full text-xs sm:text-sm ${
                     friend.status === "on track"
                       ? "bg-[#244d3f]"
                       : friend.status === "overdue"
